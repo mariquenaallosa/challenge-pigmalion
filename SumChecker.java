@@ -42,6 +42,6 @@ public class SumChecker {
             default:
                 System.out.println("Opción no válida.");
         }
-
+    scanner.close();
     }
 }
