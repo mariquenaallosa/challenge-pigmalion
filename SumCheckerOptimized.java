@@ -26,14 +26,4 @@ public class SumCheckerOptimized {
         }
         return false;
     }
-
-    public static void main(String[] args) {
-        // Ejemplo 1
-        int[] nums1 = {1, 4, 3, 9};
-        System.out.println("Ejemplo 1: " + canSum(nums1, 8)); // false
-
-        // Ejemplo 2
-        int[] nums2 = {1, 2, 4, 4};
-        System.out.println("Ejemplo 2: " + canSum(nums2, 8)); // true
-    }
 }
